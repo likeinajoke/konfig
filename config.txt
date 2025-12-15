@@ -1,0 +1,6 @@
+--[[ Тестовый конфиг ]]
+set speed = 0xA;
+set time = 0x3;
+set distance = (* speed time);
+
+result: $[ speed: speed, time: time, distance: distance ];

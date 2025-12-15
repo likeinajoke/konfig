@@ -1,0 +1,10 @@
+--[[ Физика: движение тела ]]
+set mass = 0x14;
+set g = 0x9E;
+set weight = (* mass g);
+
+object: $[
+  mass: mass,
+  gravity: g,
+  weight: weight
+];

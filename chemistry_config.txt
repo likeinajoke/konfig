@@ -1,0 +1,12 @@
+--[[ Химия: атомные массы ]]
+set h_mass = 0x1;
+set o_mass = 0x10;
+set water = (+ (* 0x2 h_mass) o_mass);
+
+elements: $[
+  hydrogen: h_mass,
+  oxygen: o_mass,
+  h2o: water,
+]
+
+molecules: { h_mass, o_mass, water, (+ h_mass o_mass) };

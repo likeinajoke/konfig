@@ -1,0 +1,10 @@
+--[[ Математика: степени и выражения ]]
+set base = 0x3;
+set exp = 0x4;
+set power = (pow base exp);
+
+numbers: $[
+  base: base,
+  exponent: exp,
+  result: power
+];
